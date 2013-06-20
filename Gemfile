@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.13'
+gem 'rails', '~> 4.0.0rc2'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -12,8 +12,8 @@ gem 'json'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.6'
-  gem 'coffee-rails', '~> 3.2.2'
+  gem 'sass-rails',   '~> 4.0.0rc2'
+  gem 'coffee-rails', '~> 4.0.0'
   gem 'uglifier', '>= 2.1.1'
 end
 
